@@ -1,0 +1,24 @@
+RapidSSH README
+---------------
+
+Secure Shell (SSH) server implementations in Python using Twisted.conch
+
+Dependencies:
+
+easy_install pycrypto
+easy_install pyasn1
+easy_install pam
+easy_install twisted
+
+Also gcc is needed.
+
+Run with:
+
+    python scripts/rapidsshd_unix.py
+
+Use only on machines aimed for testing. This is just a first
+minimal implementation for demonstration purposes.
+
+Code originally posted on http://www.g-loaded.eu/2010/03/26/python-ssh-server-unix-twisted-conch/
+
+Distributed under the MIT license.
